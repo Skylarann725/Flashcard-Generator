@@ -1,10 +1,10 @@
-function ClozeCard(text, cloze) {
+function ClozeCard(fullText, cloze) {
     if (this instanceof ClozeCard) {
 
-        if (text.search(cloze) != -1) {
+        if (fullText.search(cloze) != -1) {
 
-            if (typeof text === "string") {
-                this.fullText = text;
+            if (typeof fullText === "string") {
+                this.fullText = fullText;
             } else {
                 console.log('Please use a string');
 
@@ -23,7 +23,7 @@ function ClozeCard(text, cloze) {
             throw new Error("Cloze statements must appear in full text.")
         }
     } else {
-        return new ClozeCard(text, cloze);
+        return new ClozeCard(fullText, cloze);
     }
 
 }

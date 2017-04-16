@@ -1,7 +1,22 @@
 [
 {
-	"partial": "George Washington was the first president of the United States.",
-	"cloze": "George Washington"
+	"cloze": "George Washington",
+	"fullText": "George Washington was the first president of the United States.",
+	"partialText": "... was the first president of the United States"
 }, {
-	"partial": ""
+	"cloze": "Mercury",
+	"fullText": "Mercury is the planet nearest to the Sun",
+	"partialText": "… is the planet nearest to the Sun"
+}, {
+	"cloze": "1492",
+	"fullText": "Christopher Columbus sailed the ocean blue in 1492.",
+	"partialText": "Christopher Columbus sailed the ocean blue in ..."
+}, {
+	"cloze": "Dictionary",
+	"fullText": "Dictionary is another word for lexicon.",
+	"partialText": "... is another word for lexicon."
+}, {
+	"cloze": "Uranus",
+	"fullText": "Uranus is the seventh planet from the sun.",
+	"partialText": "... is the seventh planet from the sun."
 }]

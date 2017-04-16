@@ -1,0 +1,11 @@
+{“cloze”:”Vatican City”,”fullText":"What is the World's smallest country?”,”partialText”:”… is the World's smallest country"}
+
+{“front”:”What is the brightest planet?”,”back”:”Venus"}
+
+{“cloze”:”Mercury","fullText”:”Mercury is the planet nearest to the Sun”,”partialText”:”… is the planet nearest to the Sun"}
+
+{“front”:”What is the gas used for making vegetables?”,”back”:”Hydrogen"}
+
+{“front”:”What does the deficiency of Iron lead to?”,”back”:”Anaemia"}
+
+{“cloze”:”1492”,”fullText":"Christopher Columbus sailed the ocean blue in 1492.”,”partialText”:”Christopher Columbus sailed the ocean blue in ..."}
