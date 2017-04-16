@@ -16,7 +16,7 @@ function ClozeCard(text, cloze) {
             }
 
             this.partialText = function() {
-                return this.fullText.replace(cloze, '...';)
+                return this.fullText.replace(cloze, '...');
             };
 
         } else {
