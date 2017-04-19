@@ -69,7 +69,7 @@ function basicQuestions(cards, index, score) {
     }else{
         // show's user their score when the game is finished and restarts the game
         console.log('Your score is ' + score);
-        start();
+        endGame();
     }
 };
 
@@ -115,6 +115,27 @@ function clozeQuestions(cards, index, score) {
     } else {
         // show's user their score when the game is finished and restarts the game
         console.log('Your score is ' + score);
-        start();
+        endGame();
     }
 } // end of clozeQuestions function
+
+function endGame() {
+	inquirer.prompt({
+        type: 'list',
+        message: 'Would you like to play again?',
+        choices: ['Restart Game', 'Quit'],
+        name: 'action'
+    }).then(function(answer) {
+    	 switch (answer.action) {
+            // if player picks basic card game
+            case 'Restart Game':
+                start();
+                break;
+            // if player picks cloze card game    
+            case 'Quit':
+                "^C";
+                break;
+
+        } // end of switch function
+    }); // end of first inquirer prompt
+}; // end to end game function
