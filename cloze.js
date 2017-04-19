@@ -15,9 +15,8 @@ function ClozeCard(fullText, cloze) {
                 console.log('Please use a string');
             }
 
-            this.partialText = function() {
-                return this.fullText.replace(cloze, '...');
-            };
+            this.partialText = fullText.replace(cloze, '...');
+            
 
         } else {
             throw new Error("Cloze statements must appear in full text.")
